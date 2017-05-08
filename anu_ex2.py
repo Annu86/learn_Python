@@ -1,7 +1,9 @@
 #variables
 # assigning values to Variables
 cars = 100
+
 spaceInCar = 4.0
+
 print(cars*spaceInCar)
 a,b,c = 1,3.0,"philly"
 print(a,b,c)

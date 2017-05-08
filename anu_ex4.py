@@ -36,17 +36,17 @@ print(task1)
 #print length of the list
 print(len(task1))
 
-#print an element of the list
+#print an element of the Tuple
 print(task1[1])
 
-# print part of the list
+# print part of the Tuple
 print(task1[1:3])
 
-# Concatenation of the lists
+# Concatenation of the Tuples
 task2 = ('hindi', 'IT', "English", 'total', 7 )
 print(task1+task2)
 
-# print list multiple times
+# print Tuple multiple times
 print(task1*3)
 
 

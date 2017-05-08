@@ -2,7 +2,6 @@
 # Numeric data types
 
 #Integer data type
-
 a = 12
 print(a)
 
@@ -15,7 +14,6 @@ c = 2+6j
 print(c)
 
 #Convert data types
-
 d = float(a)
 print(d)
 

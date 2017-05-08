@@ -1,4 +1,5 @@
 #variables
+# assigning values to Variables
 cars = 100
 spaceInCar = 4.0
 print(cars*spaceInCar)

@@ -38,3 +38,7 @@ x = (9, 15, 'd', 's', 'd', 'a', 15, 10)
 print(set(x))
 #  Print length of set data type
 print(len(set(x)))
+
+# DIctionary data type
+s = {'name':'anu', 'age': 28, 'bday': 26.09}
+print(s['name'])

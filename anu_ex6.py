@@ -27,11 +27,11 @@ w = 10
 
 if (x == y) :
     print ( 'both x and y are equal')
-if (x ==z):
+if (x !=z):
     print ('x is not equal to z')
 # greater and less of two operands
 if (x < z):
-    print(' x is less than z')
+    print('x is less than z')
 if (x > w):
     print('x is greater than w')
 # greater than or equal to

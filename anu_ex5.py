@@ -32,3 +32,9 @@ print(b.lower())
 
 #concatenate the strings
 print(a + b)
+
+#Set Data Type
+x = (9, 15, 'd', 's', 'd', 'a', 15, 10)
+print(set(x))
+#  Print length of set data type
+print(len(set(x)))

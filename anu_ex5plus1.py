@@ -78,5 +78,16 @@ print("""I wanna see how it works.
 It looks somthing different. 
 Lets see how it results""")
 # with three quotes, we can easily print sentences in different lines without wrting print many times
+print('*'*25)
+#  \ (backslash) character encodes difficult-to-type characters into a string.
+# Let's see how
 
+print("I went to \"Qubec City\" last summer")
+print(' I\'am gonna live my dream' )
+fat_cat = """ I'll do a list:
+ \t*cat food
+ \t*fishies
+ \t*catnip\n\t*grass"""
+print(fat_cat)
 
+print('*'*25)

@@ -51,3 +51,32 @@ print (end7 + end8 + end9 + end10 + end11 + end12)
 print('*'*25)
 
 # error: Cheese Burger didn't appear in same line ( as per website it was in same line)
+
+# use %r for getting debugging information about something.
+# The %r will give you the "raw programmer's" version of variable, also known as the "representation."
+
+formatter = ("%r %r %r %r %r")
+print(formatter % (1,2,3,4,5))
+print(formatter % ('one','two','three','four','five'))
+print(formatter % (True, False, True, False, True))
+print(formatter %( formatter, formatter, formatter, formatter, formatter))
+print(formatter % ('Hi,', "my name is anu.", 'I am learning Python.', 'I like it.', ' I am enjoying it.'))
+print('*'*25)
+
+# some more printing
+# |n is used to start new line
+
+days = "Sun Mon Tue Wed Thur Fri Sat "
+months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
+
+print('Days in a week are:', days)
+print('Months in a year are:', months)
+
+#lets try three double quotes """
+
+print("""I wanna see how it works. 
+It looks somthing different. 
+Lets see how it results""")
+# with three quotes, we can easily print sentences in different lines without wrting print many times
+
+

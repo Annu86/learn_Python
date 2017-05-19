@@ -33,3 +33,17 @@ g = a<<1  # Binary Left Shift
 print(g)
 h = b>>1  # Binary Right Shift
 print(h)
+
+# by Jai
+
+# the ~ operator
+# it is actually complement of any number
+# we represent the number in machines by 0s and 1s
+# so to speak >> in binary we have 1011010 results in 90 in decimal number system
+# now it works like -x-1
+
+
+jai = 37
+shree = ~jai
+print(jai)
+print(shree)

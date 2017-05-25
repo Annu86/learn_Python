@@ -1,4 +1,3 @@
-# python anu_ex9.py first second third
 
 from sys import argv
 
@@ -10,3 +9,8 @@ print('the second variable is called:', second)
 print('the third variable is called:', third)
 
 # to use argv, you need to run the program in terminal (view>>tool windows >> terminal)
+
+#--------------------------------------------
+
+# now we will try raw_input and argv together
+

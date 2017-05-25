@@ -27,7 +27,7 @@ print(" Is m is greater than n?", m>n)
 print('Is l is less than or equal to m?', l<=m)
 print ('Is l is greater than or equal to n?', l>=n)
 
-# error or something that is don't know
+# error or something that i don't know
 x = 20.55
 y = 20.91
 z = 20.50

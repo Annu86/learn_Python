@@ -7,15 +7,19 @@ b  = 5
 c = a+b
 print(c)
 
+# += operand adds the last value of c with a
 c += a
 print(c)
+# -= operand subtract the last value of c with a
 c -= a
 print(c)
+# *= operand multiply the last value of c by b
 c *= b
 print(c)
-
+# /= operand divide the last value of c by b
 c /= b
 print(c)
+# **= operand make b as the power of the last value of c
 c **= b
 print(c)
 
